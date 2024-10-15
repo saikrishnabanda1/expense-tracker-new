@@ -6,8 +6,8 @@ const app = express()
 
 require('dotenv').config()
 
-// const PORT = process.env.PORT
-const PORT = https://expense-test.vercel.app
+const PORT = process.env.PORT
+// const PORT = "https://expense-test.vercel.app"
 
 //middlewares
 app.use(express.json())
